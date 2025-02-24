@@ -1,0 +1,179 @@
+
+body{
+}
+
+
+/* navigation styles start here */
+
+.logo{
+
+  font-family: "Ubuntu";
+
+}
+
+header {
+
+background-color: yellow;
+text-align: center;
+position: fixed;
+z-index: 999;
+width: 100%
+
+}
+
+.burger {
+
+  font-size: 75px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+}
+
+nav{
+  position: absolute;
+  font-size: 55px;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  font-family: 'Roboto', sans-serif;
+  background: yellow;
+  width:100%;
+  display: none;
+
+
+}
+
+.nav-toggle {
+
+  display: none;
+
+}
+
+.nav-toggle-label {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 1em;
+  display:flex;
+  align-items: center;
+}
+
+
+
+nav ul {
+
+margin:0;
+padding-bottom: 25px;
+list-style: none;
+color: black;
+padding-bottom: 60px;
+
+}
+
+nav li {
+
+margin-bottom: 1em;
+margin-left: 1em;
+
+
+}
+
+
+nav a {
+
+  color: black;
+  text-decoration:none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+
+}
+
+nav a:hover {
+
+color: red;
+
+}
+
+.nav-toggle:checked ~ nav {
+
+  display: block;
+}
+
+
+
+/* waterfall picture box starts here here */
+
+
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.textoverlay {
+  position:relative;
+  padding-top: 100px;
+
+}
+
+.overlay-title{
+
+position: absolute;
+top:250px;
+left:16px;
+font-size: 155px;
+color:lightblue;
+text-decoration: underline;
+background-color: rgba(255,0,0,0.4);
+font-family: 'Pushster', cursive;
+
+}
+
+.overlay-date{
+
+position:absolute;
+font-size: 63px;
+bottom: 5px;
+left: 16px;
+color: black;
+background-color: lightgrey;
+
+}
+
+
+.hidden {
+  height: 50%;
+  width: 100%;
+  padding-top: 60px;
+  position:relative;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+}
+
+
+
+/* footer starts here here */
+
+
+
+.footer2 {
+padding: 20px;
+text-align: center;
+font-size: 38px;
+background-color: black;
+color:white;
+position: relative;
+margin: 10px;
+
+}
+
+.bucks {
+  font-family: "Ubuntu";
+  text-align: center;
+
+}
+
+
+/* media query starts here */
